@@ -11,7 +11,7 @@ class Main {
         
         while (minutes >= 0) {
             while (seconds >= 0) {
-                system.out.println("", minutes, seconds);
+                System.out.println("", minutes, seconds);
                   Thread.sleep(1000); 
                 seconds--;
             }
