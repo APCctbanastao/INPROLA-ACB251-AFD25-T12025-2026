@@ -12,10 +12,13 @@ public class Main {
         while (minutes>= 0) {
             while (seconds >= 0) {
                 system.out.println()
+                  Thread.sleep(1000); 
+                seconds--;
             }
+            minutes--;
+            seconds = 59
         }
-
-   
+         System.out.println("Timer finished!");
     }
-  }
+  
 }
