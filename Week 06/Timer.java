@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-class Main {
+class Timer {
     public static void main(String[] args) {
-         int[][] timer = {{2}, {30}};
+         int[][] timer = {{2}, {0}};
     
         countdownTimer(timer);
     }
