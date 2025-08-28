@@ -13,7 +13,7 @@ class Timer {
         
         while (minutes >= 0) {
             while (seconds >= 0) {
-                System.out.println(minutes, seconds);
+                System.out.println(int minutes, int seconds);
                   Thread.sleep(1000); 
                 seconds--;
             }
